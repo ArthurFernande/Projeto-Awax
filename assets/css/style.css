@@ -6,9 +6,10 @@
 body{
     font-family: 'Montserrat', Arial,Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden ;
 }
 
-/* Cabeçalho*/
+/*------------------------------ Cabeçalho-----------------------------------*/
 header{
     height: 100px;
     background-color: #000000;
@@ -62,7 +63,21 @@ header{
     color: #CCC;
 }
 
-/* menu*/
+.button{
+    display: inline-block;
+    background-color: #B28756;
+    text-transform: uppercase;
+    color:#FFF;
+    font-size:12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+/*-------------------------------------- menu--------------------------------*/
+/*Parte do Banner */
 .banner{
     height: calc(100vh - 100px);
     background-color:#333;
@@ -105,19 +120,6 @@ header{
     text-transform: uppercase;
     margin-top: 20px;
 }
-.banner a{
-    display: block;
-    background-color: #B28756;
-    text-transform: uppercase;
-    color:#FFF;
-    font-size:12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding:10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-
-}
 .banner .sliders-pointers {
     width: 100vw;
     height: 20px;
@@ -156,4 +158,70 @@ header{
 @keyframes fade {
     from{opacity: .4}
     to {opacity: 1}
+}
+.default {
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* parte da seção com conteudos*/
+.default .section-title,
+.default .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title{
+    font-size: 20px;
+    
+}
+.default .section-desc {
+    font-size: 12px;
+    color:#CCC;
+    margin-top:10px;
+    margin-bottom: 40px;
+}
+.default .section-body{
+    max-width:1140px;
+    margin:auto;
+}
+
+.default.light{
+    background-color: #F7F7F7;
+}
+.defaul.light .section-title,
+.default.light .section-body{
+    color:#000 ;
+}
+.default.dark {
+    background-color:#000 ;
+}
+.default.dark .section-title,
+.default.dark .section-body {
+    color:#FFF;
+}
+
+
+
+/*
+CSS de áreas especificas
+*/
+.section-aboutus{
+    display:flex;
+}
+.section-aboutus--left{
+    flex: 1;
+}
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.section-aboutus--right{
+    width:500px;
+    text-align: center;
+}
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+
 }
