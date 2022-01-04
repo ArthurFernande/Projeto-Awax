@@ -76,6 +76,12 @@ header{
     border-radius: 20px;
 
 }
+.button--dark {
+    background-color:#000;
+}
+.button--dark:hover {
+    background-color:#B28756;
+}
 /*-------------------------------------- menu--------------------------------*/
 /*Parte do Banner */
 .banner{
@@ -198,8 +204,6 @@ header{
 .default.dark .section-body {
     color:#FFF;
 }
-
-
 
 /*
 CSS de áreas especificas
@@ -494,3 +498,53 @@ CSS de áreas especificas
 }
 
 /*patriocinios*/
+.sponsorships{
+    border-top: 1px solid #DDD;
+    border-bottom:1px solid #DDD; 
+}
+
+.section-sponsorships{
+    display:flex;
+    align-items: center;
+    
+}
+.section-imagearea{
+    flex:1;
+    text-align: center;
+}
+/*Preços*/
+
+.section-price{
+    display:flex;
+}
+.section-price--item{
+    flex:1;
+    text-align: center;
+    background-color: #FFF;
+    margin-right: 20px;
+    text-align:center;
+    border: 1px solid #DDD;
+    padding: 10px;
+}
+.section-price--item:last-child{
+    margin-right: 0;
+}
+.section-price--title{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.section-price--value{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.section-price--period{
+    color:#999;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section-price--point{
+    font-size:12px;
+}
