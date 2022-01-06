@@ -670,6 +670,7 @@ CSS de áreas especificas
     font-size:13px;
     color: #999;
 }
+/*area social*/
 .section-share{
     display: flex;
     justify-content: center;
@@ -703,6 +704,9 @@ CSS de áreas especificas
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.section-socialarea{
+    display:flex;
 }
 .section-share--icon img {
     height:12px;
@@ -810,6 +814,9 @@ footer {
     color: #FFF;
     display:flex;
 }
+.footer-area-information{
+    display:flex;
+}
 
 .footer--item{
     flex:1;
@@ -843,7 +850,7 @@ footer {
 .footer--item.area3 form {
     background-color:#333;
     text-align:center;
-    padding:30px;
+    padding:40px;
 }
 .footer--item.area3 input{
     width:100%;
@@ -853,7 +860,7 @@ footer {
     border-bottom: 1px solid #CCC;
     outline:0;
     color:#FFF;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -876,6 +883,7 @@ footer {
         margin:auto;
         margin-top: 20px;
         cursor: pointer;
+        
     }
     
     .menu-ul{
@@ -917,3 +925,260 @@ footer {
     .menu .menu-item-action:hover{
         color:#B28756;
     }
+    /*Parte do aboutus*/
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right{
+        width: auto;
+    }
+    /*Parte do service*/
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+    .sectin-service:first-child{
+        border-left: 0;
+    }
+    
+    /*Parte do time*/
+    .section-team{
+        max-width: 580px;
+    }
+    /*Parte do mapa*/
+    .section-map{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .sectiion-map--info{
+        width: auto;
+    }
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+    /*Parte do rodape*/
+    .footer--item.area3{
+        margin-right: 10px;
+    }
+    .footer-social a:first-child{
+        margin-left: 30px;
+    }
+}
+/*--------> Smartphone <------------*/
+
+/*Parte do menu*/
+
+@media  (max-width:450px) {
+    .logo{
+        margin-left:30px;
+    }
+    .menu-opener{
+        display: block; /* todos os elementos ficarão empilhados*/
+        width: 45px;
+        margin:auto;
+        margin-top: 20px;
+        cursor: pointer;
+        
+    }
+    
+    .menu-ul{
+        position: absolute;
+        width: 100%;
+        top:0;
+        transform:translatex(100%); /*coloquei todo a direita eixo x*/
+        transition: transform 200ms linear; /*animar linearmente */
+        background-color: rgba(0,0,0,0.9);
+    }
+    .menu-ul_open{
+        transform:translatex(0); /*para aparecer no menu eixo x*/
+
+    }
+    .wrap-menu {
+        position: absolute;
+        z-index: 99;
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 0;
+        right: 0;
+        border: none;
+    }
+     .menu .menu-ul{
+        flex-direction: column;
+        border: 0;
+
+    }
+    .menu-item-action{
+        font-weight: bold;
+        height: 80px;
+        font-size:27px;
+        margin-left: 50px;
+        border:0;
+
+    }
+    .menu li.active a{
+        border:0;
+        color:#B28756;
+    }
+    .menu .menu-item-action{
+        font-weight: bold;
+        height: 80px;
+        font-size: 17px;
+        margin-left:50px;
+        border:0;
+    }
+    .menu .menu-item-action:hover{
+        color:#B28756;
+    }
+    /*Parte do banner*/
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner h2{
+        font-size: 17px;
+    }
+    /*Parte do aboutus*/
+    .section-aboutus{
+        flex-direction: column;
+    }
+    .section-aboutus--left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .section-aboutus--right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-aboutus--right img{
+        width: 100%;
+    }
+    /*Parte do service*/
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+    .sectin-service:first-child{
+        border-left: 0;
+    }
+    /*parte do time */
+    .section-projects--filters{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-projects--photo{
+        width: 320px;
+    }
+    .section-projects--photoarea{
+        width: 300px;
+        height: 200px;
+    }
+    
+    /*Parte do time*/
+    .section-team{
+        max-width: 280px;
+    }
+    /*Parte do patriocinio*/
+    .section-imagearea{
+        min-width: 50%;
+    }
+    /*parte do preço*/
+    .section-price{
+        flex-direction: column;
+    }
+    .section-price--item{
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .section-price--item:last-child{
+        margin-right: 30px;
+    }
+    /*parte do item premium */
+    .slidearea1{
+        flex-direction: column;
+    }
+    .section-premium--left{
+        margin-bottom: 20px;
+    }
+    .section-premium--item{
+        margin-left: 30px;
+    }
+    /*parte dos facts */
+    .section-facts{
+        flex-direction: column;
+    }
+    /*parte dos facts*/
+    .section-share{
+        flex-direction: column;
+    }
+    .section-socialarea{
+        margin-top: 20px;
+    }
+    .section-share--item{
+        flex-direction: column;
+    }
+    .section-share--icon {
+        margin-bottom: 5px;
+    }
+    /*Parte do formulario*/
+    .section-contact{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-contact--split{
+        flex-direction: column;
+    }
+
+    .section-contact textarea{
+        padding-top: 10px;
+        height: 40px;
+    }
+    .
+    /*Parte do mapa*/
+    .section-map{
+        padding: 0;
+        padding-top: 250px;
+    }
+    .section-map--area{
+        width: auto;
+    }
+    .sectiion-map--info{
+        width: auto;
+    }
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+    /*parte do rodape*/
+    .footer-area{
+        flex-direction: column-reverse;
+    }
+    .footer-area-information{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        margin-left:20px;
+    }
+    .footer--item.area1{
+        margin-bottom: 20px;
+    }
+    .footer--item.area3{
+        margin-right: 20px;
+        margin-left:20px;
+        margin-bottom: 30px;
+    }
+}
