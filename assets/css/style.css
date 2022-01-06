@@ -32,6 +32,9 @@ header{
     background-color: #B28756;
     border-radius: 40px;
 }
+.menu-opener{
+    display: none;
+}
 .menu{
     flex:1;
     display: flex;
@@ -853,5 +856,64 @@ footer {
     font-size: 14px;
     text-align: center;
 }
+
+
 /*-------------------------parte responsiva do site --------------*/
 
+
+
+/*--------> Tablet <------------*/
+
+/*Parte do menu*/
+
+@media (min-width:450px) and (max-width:800px) {
+    .logo{
+        margin-left:30px;
+    }
+    .menu-opener{
+        display: block; /* todos os elementos ficarão empilhados*/
+        width: 45px;
+        margin:auto;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .menu-ul{
+        position: absolute;
+        width: 100%;
+        top:0;
+        transform:translatex(100%); /*coloquei todo a direita eixo x*/
+        transition: transform 200ms linear; /*animar linearmente */
+        background-color: rgba(0,0,0,0.9);
+    }
+    .menu-ul_open{
+        transform:translatex(0); /*para aparecer no menu eixo x*/
+    }
+    .wrap-menu {
+        position: absolute;
+        z-index: 99;
+        width: 70vw;
+        height: calc(100vh - 70px);
+        top: 0;
+        right: 0;
+        border: none;
+    }
+     .menu .menu-ul{
+        flex-direction: column;
+        border: 0;
+    }
+    .menu-item-action{
+        font-weight: bold;
+        height: 80px;
+        font-size:27px;
+        margin-left: 50px;
+        border:0;
+
+    }
+    .menu li.active a{
+        border:0;
+        color:#B28756;
+    }
+    .menu .menu-item-action:hover{
+        color:#B28756;
+    }

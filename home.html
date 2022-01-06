@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Awax</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" /> <!--para deixar site responsivo com a largura do dispositivo-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
@@ -14,17 +15,19 @@
                 <div class="logoimg"> </div>
             </div>
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">About US</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our Projects</a></li>
-                        <li><a href="">Our Team</a></li>
-                        <li><a href="">Happy Clients</a></li>
-                        <li><a href="">Price</a></li>
-                        <li><a href="">Some Facts</a></li>
-                        <li><a href="">Contact US</a></li>
+                <nav class="wrap-menu">
+                    <img class="menu-opener btnMenu_open" src="assets/images/menu.png" />
+                    <ul  id="menu-ul" class="menu-ul">
+                        <img class="menu-opener btnMenu_close" src="assets/images/menu.png" />
+                        <li class="active"><a href=""class="menu-item-action" >Home</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">About US</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Services</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Our Projects</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Our Team</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Happy Clients</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Price</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Some Facts</a></li>
+                        <li class="menu-item"><a href=""class="menu-item-action">Contact US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -638,5 +641,6 @@
         </div>
     </footer>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/mobile.js"></script>
 </body>
 </html>
