@@ -23,9 +23,7 @@ O projeto foi baseado em um layout de uma agencia de publicidade e tem como inte
 
 
 # Preview
-<h1>
-    <img src="layout/layout_desktop.jpg"/>
-</h1>
+
 
 # Tecnologias
 <ul>
