@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Projeto-Awax</h1>
 <p align="center">Formação Fullstack Developer B7Web - Projeto Awax</p>
 
@@ -35,4 +36,9 @@ O projeto foi baseado em um layout de uma agencia de publicidade e tem como inte
 
 # licenca
 <p>Este projeto foi desenvolvido por Arthur Fernandes  com o instrutor Bonieky da B7Web.</p>
+=======
+#AWAX
+"Formação Fullstack Developer B7Web - Projeto Awax"
+>>>>>>> ccfc25ef80664e242dcf45d32c0999bcecc74a58
+
 
