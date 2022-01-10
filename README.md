@@ -4,9 +4,9 @@
 
 <p align="center">
 <a href= "#Sobre">Sobre</a> .
-<a href= "#preview">Preview</a> .
-<a href= "#tecnologias">Tecnologias</a> .
-<a href= "#licenca">Licença</a>
+<a href= "#Preview">Preview</a> .
+<a href= "#Tecnologias">Tecnologias</a> .
+<a href= "#Licenca">Licença</a>
 </p>
 
 # Sobre
@@ -22,7 +22,7 @@ O projeto foi baseado em um layout de uma agencia de publicidade e tem como inte
 </ul>
 
 
-# preview
+# Preview
 <h1>
     <img src="layout/layout_desktop.jpg"/>
 </h1>
