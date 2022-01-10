@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 align="center">Projeto-Awax</h1>
 <p align="center">Formação Fullstack Developer B7Web - Projeto Awax</p>
 
