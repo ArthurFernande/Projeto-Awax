@@ -27,14 +27,14 @@ O projeto foi baseado em um layout de uma agencia de publicidade e tem como inte
     <img src="layout/layout_desktop.jpg"/>
 </h1>
 
-# tecnologias
+# Tecnologias
 <ul>
 <li>HTML</li>
 <li>CSS</li>
 <li>Java Script</li>
 </ul>
 
-# licenca
+# Liçenca
 <p>Este projeto foi desenvolvido por Arthur Fernandes  com o instrutor Bonieky da B7Web.</p>
 
 
