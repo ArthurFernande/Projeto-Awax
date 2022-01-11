@@ -996,6 +996,7 @@ footer {
         position: absolute;
         width: 100%;
         top:0;
+        height: initial;
         transform:translatex(100%); /*coloquei todo a direita eixo x*/
         transition: transform 200ms linear; /*animar linearmente */
         background-color: rgba(0,0,0,0.9);
@@ -1016,8 +1017,10 @@ footer {
      .menu .menu-ul{
         flex-direction: column;
         border: 0;
+        height: inherit;
 
     }
+   
     .menu-item-action{
         font-weight: bold;
         height: 80px;
@@ -1029,6 +1032,9 @@ footer {
     .menu li.active a{
         border:0;
         color:#B28756;
+    }
+    .menu li{
+        font-size:2px;
     }
     .menu .menu-item-action{
         font-weight: bold;
@@ -1078,7 +1084,7 @@ footer {
     /*parte do time */
     .section-projects--filters{
         margin-left: 30px;
-        margin-right: 30px;
+        margin-right: 10px;
     }
     .section-projects--photo{
         width: 320px;
