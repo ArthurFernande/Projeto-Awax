@@ -1024,10 +1024,7 @@ footer {
         border:0;
         color:#B28756;
     }  
-    .menu .menu-item,
-    .menu .active{
-        height: 60px;
-    }
+    
 
     .menu .menu-item-action{
         font-weight: bold;
