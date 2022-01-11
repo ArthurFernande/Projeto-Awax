@@ -29,8 +29,10 @@ header{
 .logoimg {
     height: 80px;
     width: 80px;
-    background-color: #B28756;
-    border-radius: 40px;
+}
+.logoimg img{
+    height: 100%;
+    width: 100%;
 }
 .menu-opener{
     display: none;
