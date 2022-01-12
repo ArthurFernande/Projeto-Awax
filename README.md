@@ -26,7 +26,7 @@
 
 <img src ="layout/LAYOUT_DESKTOP.jpg"  heigth="300" width="300"  />
 
-Veja o projeto funcionando <a href="arthurfernandes-awax.netlify.app"> aqui.</a>
+Veja o projeto funcionando <a href="arthurfernandes-awax.netlify.app">aqui.</a>
 
 # Tecnologias 🚀
 
